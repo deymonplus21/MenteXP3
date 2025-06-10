@@ -1,43 +1,14 @@
-
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #e0f7fa, #e1bee7);
-  color: #333;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+  background-size: 400% 400%;
+  animation: moverFondo 15s ease infinite;
 }
-.container {
-  max-width: 700px;
-  margin: auto;
-  padding: 20px;
-  background: white;
-  border-radius: 15px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
-  text-align: center;
-}
-.titulo {
-  color: #6a1b9a;
-}
-button {
-  padding: 10px 20px;
-  background-color: #7e57c2;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-button:hover {
-  background-color: #5e35b1;
-}
-input {
-  padding: 10px;
-  margin-bottom: 10px;
-  width: 80%;
-}
-a {
-  color: #6a1b9a;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
+
+@keyframes moverFondo {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
