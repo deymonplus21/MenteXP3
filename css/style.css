@@ -1,5 +1,39 @@
-<div id="particles-js"></div>
-<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-<script>
-  particlesJS.load('particles-js', 'particles.json');
-</script>
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #f6d365, #fda085);
+  text-align: center;
+  padding: 2rem;
+  color: #333;
+}
+.titulo {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.colorido {
+  color: #007bff;
+}
+.subtitulo {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+input, button {
+  padding: 0.8rem;
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #218838;
+}
+#opciones button {
+  display: block;
+  margin: 0.5rem auto;
+  width: 60%;
+}
